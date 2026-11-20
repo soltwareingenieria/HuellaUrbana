@@ -8,6 +8,9 @@
     <!-- con esta etiqueta enlazamos el archivo css -->
 <link rel="stylesheet" href="css/estilos.css">
 <link rel="stylesheet" href="css/formulario.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Knewave&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -16,21 +19,25 @@
         <img src="img/logo.png" alt="Logo Huella Urbana">
         <nav>
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#servicios">Servicio</a></li>
-                <li><a href="#planes">Planes</a></li>
-                <li><a href="#paseadores">Paseadores</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#inicio" class="boton">Inicio</a></li>
+                <li><a href="#servicios" class="boton">Servicio</a></li>
+                <li><a href="#planes" class="boton">Planes</a></li>
+                <li><a href="#paseadores" class="boton">Paseadores</a></li>
+                <li><a href="#contacto" class="boton">Contacto</a></li>
             </ul>
         </nav>
     </header>
-
+<a href=""></a>
     <main>
         <section id="inicio">
-            <h1>Huella Urbana</h1>
+            <h1 class="titulo">Huella Urbana</h1>
             <p id="slogan"> paseos seguros y felices para tu mascota, mientras tu cumples con tu dia</p>
-            <a href="#contacto">Agenda un paseo</a>
+            <a href="#contacto" class="boton">agenda un paseo</a>
             <img src="img/principal.jpg" alt="Paseo de mascotas">
+        </section>
+
+        <section id="video">
+            <iframe width="829" height="475" src="https://www.youtube.com/embed/M_sF002BHX0" title="Paseadores caninos - TvAgro por Juan Gonzalo Angel Restrepo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
 
         <section id="Servicios">
@@ -87,7 +94,21 @@
                 <p>Estudiante de veterinaria</p>
             </article>
         </section>
+        <section id="Contacto">
+            <h2>Contactanos</h2>
+            <p>Escribenos y agenda el primer paseo para tu mascota.</p>
+            <ul>
+                <li><a href="mailto:contacto@huellaurbana.com">contacto@huellaurbana.com</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">instagram</a></li>
+                <li><a href="https://wa.me" target="_blank">WhatsApp</a></li>
+            </ul>
+
+        </section>
     </main>
+    <footer>
+        <p>&copy;2026 Huella Urbana. Todos los derechos reservados.</p>
+        <p>Fotos: <a href="https://www.pexels.com" target="_blank">Pexels</a></p>
+    </footer>
     
 </body>
 </html>

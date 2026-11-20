@@ -1,25 +1,103 @@
+:root{
+    --verde: #09c846;
+    --naranja: #f68a2d;
+    --cielo: #d8d8f2;
+    --azul: #260fbc;
+    --blanco: #ffffff;
+
+}
 
 body {
-    background-color: #09A2C8;
-    color: blue;
+    background-color: var(--cielo);
+   /*  para colocar un fondo una imagen */
+   /*  background-image: url('../img/guarderia.jpg'); */
+    color: var(--azul);
+    margin: auto;
 }
 header {
-    background-color: green;
+    background-color: var(--verde);
 }
 
-p{
-    font: 20pt;
+header img{
+    width: 300px;
+    height: 200px;
 }
 
-#slogan{
-    color: red;
-    font-size: 30pt;
+nav ul{
+    list-style: none;
+    text-align: right;
 }
 
-.parrafo {
-    background-color: darkmagenta;
-    font-size: 35pt;
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
 
+nav a{
+    color: var(--blanco);
+    text-decoration: none;
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+img{
+    max-width: 100%;
+}
+
+#inicio{
+    text-align: center;
+}
+
+#inicio img{
+    width: 500;
+    height: 500;
+    border-radius: 30px;
+}
+
+.boton{
+    display: inline-block;
+    background-color: var(--naranja);
+    color: var(--azul);
+    padding: 12px 28px;
+    margin: 20px 0;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.boton:hover{
+    background-color: var(--cielo);
+    color: var(--verde);
+}
+
+h1,h2,h3{
+    color: var(--verde);
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#titulo{
+    font-size: 4rem;
+}
+
+article{
+    background-color: var(--blanco);
+    padding: 20px 100px;
+    margin: 30px;
+    border: 2px solid var(--verde);
+    border-radius: 15px;
+
+}
+
+article img{
+    border-radius: 15px;
 }
 
 #Servicios article img{
